@@ -1,0 +1,53 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <!--FONT AWESOME !-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <!-- GOOGLE FONTS !-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <section class="top-banner">
+            <div class="top-banner">
+                <img src="./assets/topbanner.jpg" class="banner-img" id="banner-img">
+                <h1>MetaGames<span>where gaming comes to life</span>
+            </div>
+        </section>
+        
+        <section class="menu-item">
+            <div id="menu-items"> <!-- Menu items here --></div>
+        </section>
+        
+        <section class="basket">
+            <div class="basket-header" id="basket-header">
+                <p>Your Order</p>
+                    <div class="flex" id="basket-total">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                            <div class="total-cost" id="total-cost"><!-- total cost here--></div>
+                    </div>
+            </div>
+            <div class="basket-container hidden" id="basket-el"><!-- basket here --></div>
+            <p class="purchase-btn hidden" id="purchase-btn">Complete Order</p>
+        </section>
+        
+        <section class="pop-up">
+            <div class="pop-up-modal hidden" id="pop-up-modal">
+                <div id="pop-up-contents"><!-- info popup here--></div>
+                    <p class="item-title" id="purchase-title">Complete your Purchase<p>
+                    <form id="purchase-form">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="number" placeholder="Enter your card number" required>
+                    <input type="number" placeholder="Enter your CVV" required>
+                    <div class="buy-btn"><button class="purchase-btn" type="submit"   id="complete-order-btn">Buy</button></div></div>
+                </form>
+            </div>
+                
+        </section>
+        
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
