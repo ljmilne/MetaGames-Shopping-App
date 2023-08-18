@@ -23,7 +23,7 @@ document.addEventListener("click", function (e){
     else if (e.target.id === "purchase-btn"){
         HandleCheckout(basketArray)}
     else if (e.target.id==="close-btn"){
-        checkout.classList.add("hidden")}
+        checkoutModal.classList.add("hidden")}
 })
 
 purchaseform.addEventListener("submit", function(e){
